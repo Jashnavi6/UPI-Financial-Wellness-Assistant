@@ -8,7 +8,7 @@ The application helps UPI users understand their cashflow, forecast upcoming mon
 
 ## 🚀 Key Features
 
-### 0. 🔐 User Authentication & Personal Profile Dashboard
+###  🔐 User Authentication & Personal Profile Dashboard
 - **Dedicated Authentication Gateway:** Secure access gate with modern dark fintech glassmorphism design.
 - **3-Tab Authentication Portal:**
   - **🔐 Sign In:** Authenticate via username or email with SHA-256 + salt password verification.
