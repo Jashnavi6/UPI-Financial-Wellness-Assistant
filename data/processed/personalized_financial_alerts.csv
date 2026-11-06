@@ -1,0 +1,6 @@
+alert_type,alert_message
+Personalized Financial Alert,High Spending Alert: 422 transactions are significantly higher than your average expense.
+Personalized Financial Alert,"Large Transaction Alert: 42 transactions are ₹25,000 or above."
+Personalized Financial Alert,"Category Alert: Shopping is your highest spending category with ₹2,517,842.63 spent."
+Personalized Financial Alert,"Recurring Expense Alert: You have ₹918,566.47 in recurring transactions."
+Personalized Financial Alert,"Weekend Spending Alert: ₹3,033,461.89 was spent during weekends."

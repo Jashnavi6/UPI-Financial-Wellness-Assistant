@@ -1,0 +1,24 @@
+{
+    "jashnavi": {
+        "username": "jashnavi",
+        "password_hash": "204389d5f87883bc188fcb6c8c9e49f8ff166465c3d3eab0708a94be0fb53f03",
+        "full_name": "Jashnavi",
+        "email": "jashnavi@upiwellness.ai",
+        "monthly_income": 85000.0,
+        "savings_target": 250000.0,
+        "role": "Premium Member",
+        "avatar": "\ud83c\udf1f",
+        "created_at": "2026-01-01 10:00:00"
+    },
+    "demo": {
+        "username": "demo",
+        "password_hash": "4096df7c1583b8f01cdf26e5cd270716daa8c30dd50bd2fcb491c31db8957eb4",
+        "full_name": "Demo Analyst",
+        "email": "demo@upiwellness.ai",
+        "monthly_income": 60000.0,
+        "savings_target": 120000.0,
+        "role": "Standard User",
+        "avatar": "\ud83d\udc64",
+        "created_at": "2026-01-01 10:00:00"
+    }
+}
