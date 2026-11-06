@@ -203,8 +203,7 @@ upi/
 - Python 3.10+
 - streamlit
 - pandas
-- 
-umpy
+- numpy
 - scikit-learn
 - plotly
 - matplotlib
