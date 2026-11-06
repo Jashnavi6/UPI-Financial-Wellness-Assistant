@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 💰 AI-Powered UPI Financial Wellness & Predictive Spending Assistant
 
 An end-to-end intelligent financial management platform built with **Python**, **Streamlit**, **Scikit-Learn**, **Plotly**, and **Pandas**. 
