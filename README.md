@@ -122,7 +122,7 @@ In **VS Code**, you can simply open `app.py` or `run.py` and click the top-right
 
 ### Option B: Streamlit Command
 Run in your terminal:
-`ash
+
 streamlit run app.py
 `
 
