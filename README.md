@@ -121,10 +121,8 @@ python app.py
 In **VS Code**, you can simply open `app.py` or `run.py` and click the top-right **▶️ Run Python File (Play)** button, or press **F5**!
 
 ### Option B: Streamlit Command
-Run in your terminal:
+Run in your terminal:streamlit run app.py
 
-streamlit run app.py
-`
 
 The app will open automatically in your browser at http://localhost:8501.
 
