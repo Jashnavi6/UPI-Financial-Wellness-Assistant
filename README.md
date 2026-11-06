@@ -207,7 +207,6 @@ upi/
 - scikit-learn
 - plotly
 - matplotlib
-=======
 # UPI-Financial-Wellness-Assistant
 AI-powered UPI spending analysis and financial wellness prediction system
 >>>>>>> d929b308f52bcb1a426b18fcabed9f538bad0c0e
