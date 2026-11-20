@@ -119,10 +119,7 @@ python app.py
 In **VS Code**, you can simply open `app.py` or `run.py` and click the top-right **▶️ Run Python File (Play)** button, or press **F5**!
 
 ### Option B: Streamlit Command
-Run in your terminal:streamlit run app.py
-
-
-The app will open automatically in your browser athttps://upi-financial-wellness-assistant-6wgdmgldw8wxphz6txtl3z.streamlit.app/
+Run in your terminal:https://upi-financial-wellness-assistant-6wgdmgldw8wxphz6txtl3z.streamlit.app/
 ---
 
 ## 📂 Project Structure
