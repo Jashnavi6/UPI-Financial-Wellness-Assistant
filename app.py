@@ -188,6 +188,30 @@ st.markdown("""
         background-color: rgba(59, 130, 246, 0.08);
         border-left-color: #3b82f6;
     }
+
+    /* Sidebar Navigation List Styling */
+    div[data-testid="stSidebar"] div[data-testid="stRadio"] > label {
+        font-weight: 700 !important;
+        font-size: 0.95rem !important;
+        color: #f1f5f9 !important;
+        letter-spacing: 0.02em !important;
+        margin-bottom: 8px !important;
+    }
+    div[data-testid="stSidebar"] div[role="radiogroup"] > label {
+        padding: 5px 10px !important;
+        border-radius: 8px !important;
+        margin-bottom: 3px !important;
+        transition: background-color 0.15s ease, transform 0.15s ease !important;
+    }
+    div[data-testid="stSidebar"] div[role="radiogroup"] > label:hover {
+        background-color: rgba(255, 255, 255, 0.06) !important;
+        transform: translateX(2px) !important;
+    }
+    div[data-testid="stSidebar"] div[role="radiogroup"] > label div[data-testid="stMarkdownContainer"] p {
+        font-size: 0.92rem !important;
+        font-weight: 500 !important;
+        color: #e2e8f0 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -261,13 +285,13 @@ with st.sidebar:
 
     menu_options = [
         "📊 Financial Dashboard",
-        "🤖 ML Spending Prediction",
-        "🔍 ML Anomaly Detection",
-        "🛡️ Safe-to-Spend Planner",
-        "💡 What-If Simulator",
-        "🎯 Savings Goal Simulator",
-        "🚨 Smart Alerts & Insights",
-        "📁 Data Studio & Upload"
+        "📈 Expense Forecasting",
+        "🔍 Unusual Transactions",
+        "🛡️ Safe-to-Spend Limits",
+        "💡 Scenario Simulator",
+        "🎯 Target Savings",
+        "🚨 Financial Alerts",
+        "📁 Data Management"
     ]
 
     selected_menu = st.radio("Navigation", menu_options, index=0)
@@ -558,10 +582,10 @@ if selected_menu == "📊 Financial Dashboard":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 2: 🤖 ML SPENDING PREDICTION & MULTI-MONTH FORECASTING
+# MODULE 2: 📈 EXPENSE FORECASTING & MULTI-MONTH PREDICTION
 # ------------------------------------------------------------------------------
-elif selected_menu == "🤖 ML Spending Prediction":
-    st.markdown("## 🤖 Machine Learning Spending Prediction & Forecasting")
+elif selected_menu == "📈 Expense Forecasting":
+    st.markdown("## 📈 Expense Forecasting & Spending Predictions")
     st.markdown(
         '<div class="section-note">'
         'Predict future monthly spending, model expenditure trajectories, and evaluate regression metrics (MAE, RMSE, R²).'
@@ -702,10 +726,10 @@ elif selected_menu == "🤖 ML Spending Prediction":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 3: 🔍 ML UNUSUAL SPENDING & ANOMALY DETECTION
+# MODULE 3: 🔍 UNUSUAL TRANSACTIONS & ANOMALY DETECTION
 # ------------------------------------------------------------------------------
-elif selected_menu == "🔍 ML Anomaly Detection":
-    st.markdown("## 🔍 Machine Learning Unusual Spending & Anomaly Detection")
+elif selected_menu == "🔍 Unusual Transactions":
+    st.markdown("## 🔍 Unusual Transactions & Anomaly Detection")
     st.markdown(
         '<div class="section-note">'
         'Unsupervised Isolation Forest algorithm isolating unusual transactions, spikes, and potential fraudulent or erroneous charges.'
@@ -814,10 +838,10 @@ elif selected_menu == "🔍 ML Anomaly Detection":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 4: 🛡️ SAFE-TO-SPEND DYNAMIC PLANNER
+# MODULE 4: 🛡️ SAFE-TO-SPEND LIMITS
 # ------------------------------------------------------------------------------
-elif selected_menu == "🛡️ Safe-to-Spend Planner":
-    st.markdown("## 🛡️ Dynamic Safe-to-Spend Financial Planner")
+elif selected_menu == "🛡️ Safe-to-Spend Limits":
+    st.markdown("## 🛡️ Dynamic Safe-to-Spend Limits & Planning")
     st.markdown(
         '<div class="section-note">'
         'Calculates exactly how much discretionary capital you can spend without defaulting on upcoming bills or dipping below your emergency cushion.'
@@ -897,10 +921,10 @@ elif selected_menu == "🛡️ Safe-to-Spend Planner":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 5: 💡 WHAT-IF SCENARIO SIMULATOR
+# MODULE 5: 💡 SCENARIO SIMULATOR
 # ------------------------------------------------------------------------------
-elif selected_menu == "💡 What-If Simulator":
-    st.markdown("## 💡 What-If Spending Scenario Simulator")
+elif selected_menu == "💡 Scenario Simulator":
+    st.markdown("## 💡 What-If Scenario Simulator")
     st.markdown(
         '<div class="section-note">'
         'Simulate category-level budget cutbacks to calculate immediate and compounded annual savings.'
@@ -948,10 +972,10 @@ elif selected_menu == "💡 What-If Simulator":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 6: 🎯 SAVINGS GOAL SIMULATOR
+# MODULE 6: 🎯 TARGET SAVINGS
 # ------------------------------------------------------------------------------
-elif selected_menu == "🎯 Savings Goal Simulator":
-    st.markdown("## 🎯 Savings Goal & Emergency Fund Simulator")
+elif selected_menu == "🎯 Target Savings":
+    st.markdown("## 🎯 Target Savings & Goal Simulator")
     st.markdown(
         '<div class="section-note">'
         'Set milestone targets, evaluate feasibility against monthly cashflow surplus, and track progress trajectories.'
@@ -1025,10 +1049,10 @@ elif selected_menu == "🎯 Savings Goal Simulator":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 7: 🚨 SMART ALERTS & INSIGHTS
+# MODULE 7: 🚨 FINANCIAL ALERTS
 # ------------------------------------------------------------------------------
-elif selected_menu == "🚨 Smart Alerts & Insights":
-    st.markdown("## 🚨 Personalized Financial Alerts & Smart Insights")
+elif selected_menu == "🚨 Financial Alerts":
+    st.markdown("## 🚨 Financial Alerts & Smart Insights")
     st.markdown(
         '<div class="section-note">'
         'AI and heuristic rules scanning your transaction ledger to flag overspending, recurring obligations, and cashflow risks.'
@@ -1057,10 +1081,10 @@ elif selected_menu == "🚨 Smart Alerts & Insights":
 
 
 # ------------------------------------------------------------------------------
-# MODULE 8: 📁 DATA STUDIO & CUSTOM CSV STATEMENT UPLOAD
+# MODULE 8: 📁 DATA MANAGEMENT & STATEMENT UPLOAD
 # ------------------------------------------------------------------------------
-elif selected_menu == "📁 Data Studio & Upload":
-    st.markdown("## 📁 Data Studio & Statement Uploader")
+elif selected_menu == "📁 Data Management":
+    st.markdown("## 📁 Data Management & Statement Uploader")
     st.markdown(
         '<div class="section-note">'
         'Upload your own UPI statement (GPay, PhonePe, Paytm, Bank CSV), or generate a new synthetic transaction dataset.'

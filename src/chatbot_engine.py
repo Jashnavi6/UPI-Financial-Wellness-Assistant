@@ -352,7 +352,7 @@ Here is how you can boost your savings based on your spending history:
    - Keep daily casual debit card / UPI transfers below **₹{self.daily_safe:,.2f}/day**.
 
 4. **Audit Weekend Spikes:**
-   - Check the **💡 What-If Simulator** tab in the dashboard to model exact percentage cutbacks!
+   - Check the **💡 Scenario Simulator** tab in the dashboard to model exact percentage cutbacks!
 """
 
     def _handle_largest_expenses(self):
