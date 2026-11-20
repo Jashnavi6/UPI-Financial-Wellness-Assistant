@@ -122,8 +122,7 @@ In **VS Code**, you can simply open `app.py` or `run.py` and click the top-right
 Run in your terminal:streamlit run app.py
 
 
-The app will open automatically in your browser at http://localhost:8501.
-
+The app will open automatically in your browser athttps://upi-financial-wellness-assistant-6wgdmgldw8wxphz6txtl3z.streamlit.app/
 ---
 
 ## 📂 Project Structure
